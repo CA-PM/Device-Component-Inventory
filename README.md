@@ -32,9 +32,11 @@ CA PC app with following characteristics
   * IsPresent
   * IsFiltered
   * IsPolled
+  * IsPollEnabled (v1.1)
 
 # Prerequisites
-CA PM 3.5. The app retrieves the AlternateName for interfaces which is new to 3.5.
+v1.0 CA PM 3.5. The app retrieves the AlternateName for interfaces which is new to 3.5.
+v1.1 CA PM 3.6. table allows multiple row selections (Ctrl+click) and change of "IsPollEnabled" flag.
 
 # Installation
 The app is packed in a ZIP archive and can be installed through CA PM 3.2+ App Deployment function.
